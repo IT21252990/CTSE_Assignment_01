@@ -107,7 +107,7 @@ View your live SonarCloud dashboard here:
 |--------|---------|-----------|
 | Kalinga Jayathilaka | IT21252990 | [![Kalinga's GitHub](https://img.shields.io/badge/@kalingajayathilaka-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/IT21252990) |
 | Vihangi Rathnayake | IT21271182 | [![Vihangi's GitHub](https://img.shields.io/badge/@vihangirathnayake-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/IT21271182) |
-| Ashen Savinda | IT21373916 | [![Vihangi's GitHub](https://img.shields.io/badge/@ashensavinda-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Ashen-Savinda) |
-| Sithara Pramodini | IT21306754 | [![Vihangi's GitHub](https://img.shields.io/badge/@sitharapramodini-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/SitharaPramodini) |
+| Ashen Savinda | IT21373916 | [![Ashen's GitHub](https://img.shields.io/badge/@ashensavinda-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Ashen-Savinda) |
+| Sithara Pramodini | IT21306754 | [![Sithara's GitHub](https://img.shields.io/badge/@sitharapramodini-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/SitharaPramodini) |
 
 ---
