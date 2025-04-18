@@ -1,0 +1,94 @@
+{
+    "taskDefinitionArn": "arn:aws:ecs:us-east-1:992382529197:task-definition/course-service-task:3",
+    "containerDefinitions": [
+        {
+            "name": "course-service",
+            "image": "kalingajayathilaka/course-service:latest",
+            "cpu": 0,
+            "portMappings": [
+                {
+                    "name": "course-service-5000-tcp",
+                    "containerPort": 5000,
+                    "hostPort": 5000,
+                    "protocol": "tcp",
+                    "appProtocol": "http"
+                }
+            ],
+            "essential": true,
+            "environment": [
+                {
+                    "name": "MONGODB_CONNECTION_STRING",
+                    "value": "mongodb+srv://kalingajayathilaka:IT4qg6l6MIMqEzXr@cluster0.6na024s.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+                }
+            ],
+            "environmentFiles": [],
+            "mountPoints": [],
+            "volumesFrom": [],
+            "ulimits": [],
+            "logConfiguration": {
+                "logDriver": "awslogs",
+                "options": {
+                    "awslogs-group": "/ecs/course-service-task",
+                    "mode": "non-blocking",
+                    "awslogs-create-group": "true",
+                    "max-buffer-size": "25m",
+                    "awslogs-region": "us-east-1",
+                    "awslogs-stream-prefix": "ecs"
+                },
+                "secretOptions": []
+            },
+            "systemControls": []
+        }
+    ],
+    "family": "course-service-task",
+    "taskRoleArn": "arn:aws:iam::992382529197:role/ecsTaskExecutionRole",
+    "executionRoleArn": "arn:aws:iam::992382529197:role/ecsTaskExecutionRole",
+    "networkMode": "awsvpc",
+    "revision": 3,
+    "volumes": [],
+    "status": "ACTIVE",
+    "requiresAttributes": [
+        {
+            "name": "com.amazonaws.ecs.capability.logging-driver.awslogs"
+        },
+        {
+            "name": "ecs.capability.execution-role-awslogs"
+        },
+        {
+            "name": "com.amazonaws.ecs.capability.docker-remote-api.1.19"
+        },
+        {
+            "name": "com.amazonaws.ecs.capability.docker-remote-api.1.28"
+        },
+        {
+            "name": "com.amazonaws.ecs.capability.task-iam-role"
+        },
+        {
+            "name": "com.amazonaws.ecs.capability.docker-remote-api.1.18"
+        },
+        {
+            "name": "ecs.capability.task-eni"
+        },
+        {
+            "name": "com.amazonaws.ecs.capability.docker-remote-api.1.29"
+        }
+    ],
+    "placementConstraints": [],
+    "compatibilities": [
+        "EC2",
+        "FARGATE"
+    ],
+    "requiresCompatibilities": [
+        "FARGATE"
+    ],
+    "cpu": "1024",
+    "memory": "2048",
+    "runtimePlatform": {
+        "cpuArchitecture": "X86_64",
+        "operatingSystemFamily": "LINUX"
+    },
+    "registeredAt": "2025-04-18T07:21:27.607Z",
+    "registeredBy": "arn:aws:iam::992382529197:root",
+    "enableFaultInjection": false,
+    "tags": []
+}
