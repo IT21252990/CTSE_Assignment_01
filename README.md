@@ -1,6 +1,6 @@
 # 🧩 Course Service Microservice - Cloud Computing Assignment (SE4010)
 
-This repository contains the **Course Service** microservice developed as a part of the **Cloud Computing Assignment** for the module _Current Trends in Software Engineering (SE4010)_ at **SLIIT** (2025 | Year 01 | Semester 2).
+This repository contains the **Course Service** microservice developed as a part of the **Cloud Computing Assignment** for the module _Current Trends in Software Engineering (SE4010)_ at **SLIIT** (2025 | Year 04 | Semester 2).
 
 > 🎯 **Objective:** Design and implement a secure, cloud-based, microservice architecture component using fundamental DevOps and DevSecOps practices on a public cloud platform.
 
