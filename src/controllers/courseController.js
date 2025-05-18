@@ -4,6 +4,7 @@ const mongoose = require('mongoose');
 //@desc Create a new Course
 //@route /api/courses/
 //@access private / Instructor
+// ne
 const createCourse = async (req, res) => {
     try {
         const newCourse = new Course(req.body);
